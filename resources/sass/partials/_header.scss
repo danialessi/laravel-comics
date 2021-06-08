@@ -1,0 +1,56 @@
+.top-header {
+    padding: 2px 0;
+    width: 100%;
+    background-color: $brand_primary_color;
+    
+    .top-text-container {
+        text-align: right;
+
+        span {
+            color: white;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        span:first-child {
+            margin-right: 40px;
+        }
+    }
+}
+
+// navbar 
+.nav-logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    .logo {
+        img {
+            width: 70%;
+        }
+    }
+
+    .nav-list {
+        li {
+            display: inline-block;
+            margin-right: 20px;
+
+            a {
+                text-transform: uppercase;
+                text-decoration: none;
+                color: black;
+                font-size: 13px;
+            }
+        }
+    }
+}
+// end navbar 
+
+//jumbotron
+.jumbotron {
+    height: 280px;
+    background-image: url(../../../public/img/jumbotron.jpg);
+    background-size: cover;
+}
+// end jumbotron 
