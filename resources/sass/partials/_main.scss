@@ -86,4 +86,91 @@
         }
     }
 }
-// end services 
+// end services
+
+.blue-stripe {
+    height: 60px;
+    background-color: $brand_primary_color;
+}
+
+// comic-details
+.comic-details-container {
+    width: 70%;
+    margin: auto;
+    position: relative;
+
+    // poster 
+    .comic-poster {
+        width: 18%;
+        position: absolute;
+        top: -260px;
+        left: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+    // end poster
+
+    .details-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .details {
+            width: 65%;
+            // title 
+            .comic-title {
+                padding-top: 70px;
+            
+                h2 {
+                    text-transform: uppercase;
+                    color: $comic_title_color;
+                }
+            }
+            // end title
+
+            // price box
+            .price-box {
+                background-color: #55ba59;
+                margin-top: 20px;
+                padding: 15px;
+                display: flex;
+                justify-content: space-between;
+
+                .price {
+                    span {
+                        color: #b0fd9c;
+                    }
+                    .total {
+                        color: white;
+                    }
+                }
+
+                .availability {
+                    span {
+                        text-transform: uppercase;
+                        color: #b0fd9c;
+                    }
+                }
+
+                .check-availability {
+                    color: white;
+                }
+            }
+            // end price box
+
+            .description {
+                margin-top: 20px;
+            }
+        }
+
+        .advertise {
+            width: 30%;
+            margin-top: 75px;
+        }
+
+    }
+    
+    
+}
+// end comic-details 

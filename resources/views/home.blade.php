@@ -26,7 +26,6 @@
                     load more
                 </div>
             </div>
-            
             {{-- end button more  --}}
         </div>
     </section>

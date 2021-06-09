@@ -141,3 +141,77 @@
   font-size: 13px;
 }
 
+.blue-stripe {
+  height: 60px;
+  background-color: #1882f9;
+}
+
+.comic-details-container {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.comic-details-container .comic-poster {
+  width: 18%;
+  position: absolute;
+  top: -260px;
+  left: 0;
+}
+
+.comic-details-container .comic-poster img {
+  width: 100%;
+}
+
+.comic-details-container .details-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comic-details-container .details-wrapper .details {
+  width: 65%;
+}
+
+.comic-details-container .details-wrapper .details .comic-title {
+  padding-top: 70px;
+}
+
+.comic-details-container .details-wrapper .details .comic-title h2 {
+  text-transform: uppercase;
+  color: #073f5e;
+}
+
+.comic-details-container .details-wrapper .details .price-box {
+  background-color: #55ba59;
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comic-details-container .details-wrapper .details .price-box .price span {
+  color: #b0fd9c;
+}
+
+.comic-details-container .details-wrapper .details .price-box .price .total {
+  color: white;
+}
+
+.comic-details-container .details-wrapper .details .price-box .availability span {
+  text-transform: uppercase;
+  color: #b0fd9c;
+}
+
+.comic-details-container .details-wrapper .details .price-box .check-availability {
+  color: white;
+}
+
+.comic-details-container .details-wrapper .details .description {
+  margin-top: 20px;
+}
+
+.comic-details-container .details-wrapper .advertise {
+  width: 30%;
+  margin-top: 75px;
+}
+
