@@ -71,7 +71,7 @@
   background-color: #1882f9;
   padding: 8px 20px;
   position: relative;
-  top: -17px;
+  top: -50px;
   left: 0;
 }
 
@@ -88,6 +88,7 @@
   width: calc(100% / 6);
   padding: 10px;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .comics-section .comics-container .single-comic img {
@@ -98,5 +99,45 @@
   margin-top: 10px;
   color: white;
   text-transform: uppercase;
+}
+
+.comics-section .button-container {
+  text-align: center;
+}
+
+.comics-section .button-container .load-more {
+  display: inline-block;
+  background-color: #1882f9;
+  color: white;
+  padding: 8px 40px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.services-list {
+  background-color: #1882f9;
+}
+
+.services-list .services-images-container {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-list .services-images-container .image-container {
+  margin-right: 20px;
+}
+
+.services-list .services-images-container .image-container img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.services-list .services-images-container .image-container span {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 10px;
+  font-size: 13px;
 }
 
